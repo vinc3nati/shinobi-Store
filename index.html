@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/favicon/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://shinobi-ui.netlify.app/component.94ff301d.css">
+    <link rel="stylesheet" href="./app.css">
+    <script src="./index.js" defer fade></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="main">
+            <div class="logo">
+                <a href="/">
+                    <img src="./assets/store_logo_white.png" alt="logo" class="img img-responsive">
+                </a>
+            </div>
+            <div class="search-bar">
+                <button type="submit" class="btn tertiary"><i class="fa-solid fa-search"></i></button>
+                <div class="input-grp">
+                    <input type="text" placeholder="search">
+                </div>
+            </div>
+
+            <div class="nav-links">
+                <div class="badge">
+                    <i class="fa-solid fa-envelope badge-icon"></i>
+                </div>
+                <div class="badge">
+                    <i class="fa-solid fa-calendar badge-icon"></i>
+                </div>
+                <div class="badge">
+                    <i class="fa-solid fa-bag-shopping badge-icon"></i>
+                    <span class="number secondary">9+</span>
+                </div>
+            </div>
+        </div>
+        <div class="user">
+            <button class="btn icon-btn">
+                <i class="fa-solid fa-circle-user"></i>
+                Login
+            </button>
+
+            <!-- <span class="text-tertiary">username</span>
+            <img class="avatar sm" src="https://source.unsplash.com/DomqHKN2Xik/" alt="avatar_1"> -->
+        </div>
+    </nav>
+    <section id="carousel">
+        <div class="carousel-container">
+            <div class="slides slide-1 fade" data-active>
+                <header class="carousel-heading">
+                    Newest Shinobi Clothes
+                </header>
+                <button class="btn tertiary">Shop Now</button>
+            </div>
+            <div class="slides slide-2 fade">
+                <header class="carousel-heading">
+                    Hottest weapons upto 20% off
+                </header>
+                <button class="btn tertiary">Shop Now</button>
+            </div>
+            <div class="slides slide-3 fade">
+                <header class="carousel-heading">
+                    Clearance Sale starts in 2 days!
+                </header>
+                <button class="btn tertiary">Shop Now</button>
+            </div>
+            <button class="btn tertiary prev" onclick="plusSlides(-1)"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="btn tertiary next" onclick="plusSlides(1)"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </section>
+    <section id="featured-categories">
+        <header class="section-heading">Featured Categories</header>
+        <div class="categories layout-4-column">
+            <div class="feature-box">
+                <img class="img img-responsive" src="./assets/img/shuriken.png" alt="shuriken">
+                <span class="feature-text">Shuriken</span>
+            </div>
+            <div class="feature-box">
+                <img class="img img-responsive" src="./assets/img/headband.png" alt="headband">
+                <span class="feature-text">Headband</span>
+            </div>
+            <div class="feature-box">
+                <img class="img img-responsive" src="./assets/img/kimono.png" alt="kimono">
+                <span class="feature-text">Kimono</span>
+            </div>
+            <div class="feature-box">
+                <img class="img img-responsive" src="./assets/img/clothes.png" alt="clothes">
+                <span class="feature-text">Clothes</span>
+            </div>
+        </div>
+    </section>
+    <section id="why-us">
+        <header class="section-heading">Why Choose Us ?</header>
+        <div class="categories grid layout-3-column">
+            <div class="reason-card">
+                <div class="icon-container">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <div class="reason-heading">
+                    Newest Collection
+                </div>
+                <p>Directly from the manufacturer</p>
+            </div>
+            <div class="reason-card">
+                <div class="icon-container">
+                    <i class="fa-solid fa-fire-flame-curved"></i>
+                </div>
+                <div class="reason-heading">
+                    Hottest Wardrobe
+                </div>
+                <p>Hottest Stuff which suits you</p>
+            </div>
+            <div class="reason-card">
+                <div class="icon-container">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="reason-heading">
+                    Quality Assured
+                </div>
+                <p>100% genuine products</p>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <header>Made with <i class="fas fa-heart text-secondary"></i> by <span class="text-secondary">Vinit Kanse</span>
+        </header>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/vinit-kanse-96838b184/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.github.com/vinc3nati"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="copyright text-light">&copy; 2022 - 2023 <span class="text-primary text-bold">Shinobi
+                Store</span></div>
+    </section>
+    <script src="https://shinobi-ui.netlify.app/repo.b72b64c2.js"></script>
+</body>
+
+</html>
