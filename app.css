@@ -121,7 +121,7 @@ body {
   height: 2px;
   background-color: var(--color-primary);
   content: " ";
-  width: 20rem;
+  width: 100px;
   margin: 0 auto;
   margin-top: 20px;
 }
