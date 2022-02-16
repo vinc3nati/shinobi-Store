@@ -30,3 +30,15 @@
 .sub-text {
   color: var(--color-grey-dark-3);
 }
+
+.login-helper {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.forgot-password {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
