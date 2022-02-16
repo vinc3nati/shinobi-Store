@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/favicon/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://shinobi-ui.netlify.app/component.94ff301d.css">
+    <link rel="stylesheet" href="/app.css">
+    <link rel="stylesheet" href="/auth/auth.css">
+    <script src="./index.js" defer fade></script>
+    <title>Shinobi-Store | SignUp</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="main">
+            <div class="logo">
+                <a href="/">
+                    <img src="/assets/store_logo_white.png" alt="logo" class="img img-responsive">
+                </a>
+            </div>
+            <div class="search-bar">
+                <button type="submit" class="btn tertiary"><i class="fa-solid fa-search"></i></button>
+                <div class="input-grp">
+                    <input type="text" placeholder="search">
+                </div>
+            </div>
+
+            <div class="nav-links">
+                <div class="badge">
+                    <i class="fa-solid fa-envelope badge-icon"></i>
+                </div>
+                <div class="badge">
+                    <i class="fa-solid fa-calendar badge-icon"></i>
+                </div>
+                <div class="badge">
+                    <i class="fa-solid fa-bag-shopping badge-icon"></i>
+                    <span class="number secondary">9+</span>
+                </div>
+            </div>
+        </div>
+        <div class="user">
+            <button class="btn icon-btn">
+                <i class="fa-solid fa-circle-user"></i>
+                Register
+            </button>
+        </div>
+    </nav>
+    <section id="auth">
+        <header class="section-heading">Register</header>
+        <form class="auth-form">
+            <div class="input-grp">
+                <label for="username">Name</label>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="input-grp">
+                <label for="username">Email</label>
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-grp">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password">
+            </div>
+            <button class="btn primary">Register</button>
+        </form>
+        <div class="sub-text text-center">Already have an account? <a href="/auth/login.html"
+                class="text-secondary">Login!</a></div>
+    </section>
+</body>
+
+</html>
