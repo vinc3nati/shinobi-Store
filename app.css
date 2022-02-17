@@ -3,3 +3,24 @@
 @import url("/auth/auth.css");
 @import url("/product/product.css");
 @import url("/wishlist/wishlist.css");
+@import url("/cart/cart.css");
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-tertiary-dark);
+  border-radius: 100px;
+  transition: background-color 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-grey-dark-2);
+}
