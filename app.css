@@ -24,3 +24,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--color-grey-dark-2);
 }
+
+.navbar .badge:hover .number {
+  opacity: 1;
+}

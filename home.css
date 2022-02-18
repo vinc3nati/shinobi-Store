@@ -76,7 +76,7 @@ body {
   color: var(--color-tertiary);
 }
 
-.slides > .btn {
+.slides > a .btn {
   font-size: 2rem;
 }
 
