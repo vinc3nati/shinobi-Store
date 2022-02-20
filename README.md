@@ -47,11 +47,11 @@
 
 <a name="demo"></a>
 
-<!-- Starting Guide -->
+## Demo
 
-<a name="starting-guide"></a>
+![demo](https://github.com/vinc3nati/shinobi-Store/blob/dev/assets/demo.gif)
 
-<!-- Components -->
+<!-- Features -->
 
 <a name="features"></a>
 
